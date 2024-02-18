@@ -56,6 +56,7 @@ public class Basics {
 		then().log().all().assertThat().statusCode(200).extract().response().asString();
 		JsonPath js1 = ReusableMethods.rawToJson(response1);
 		js1.getString("address").equals(Address);
+		System.out.println("git branch demo");
 	}
 	
 	
