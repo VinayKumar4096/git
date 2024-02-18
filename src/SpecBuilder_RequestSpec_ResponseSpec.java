@@ -48,6 +48,7 @@ public class SpecBuilder_RequestSpec_ResponseSpec {
 		.then().spec(response).extract().response();
 		String responsestring = resp.asString();	
 		System.out.println(responsestring);
+		System.out.println("here also git related changes processed ");
 //		given().queryParams("key","qaclick123").body(api)
 //		.when().post("/maps/api/place/add/json")
 //		.then().log().all().assertThat().statusCode(200);
