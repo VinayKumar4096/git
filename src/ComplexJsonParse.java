@@ -49,7 +49,8 @@ public class ComplexJsonParse {
 		int purchaseamount1 = js.getInt("dashboard.purchaseAmount");
 		Assert.assertEquals(sum, purchaseamount1);
 		
-		
+		System.out.println("this is for git practice");
+		System.out.println("this is for git practice 2");
 	}
 }
 
